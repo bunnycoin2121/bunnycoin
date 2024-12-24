@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff33cc;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ff33cc;
+}
+
+.main-section {
+    margin-top: 50px;
+}
+
+#countdown {
+    margin-top: 20px;
+    font-size: 2em;
+    color: #fff;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#timer div {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#bunny-image img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+section {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#presale a {
+    color: #ff33cc;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff33cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: #ccc;
+}
